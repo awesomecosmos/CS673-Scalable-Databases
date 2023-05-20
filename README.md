@@ -1,2 +1,2 @@
-# CS676-Algorithms-For-Data-Science
-Repository for storing code for my Pace University course CS676 Algorithms For Data Science.
+# CS673-Scalable-Databases
+Repository for storing code for my Pace University course CS673 Scalable Databases.
