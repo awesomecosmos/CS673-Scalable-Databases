@@ -10,7 +10,7 @@ In this [project](https://github.com/awesomecosmos/CS673-Scalable-Databases/tree
 In this [project](https://github.com/awesomecosmos/CS673-Scalable-Databases/blob/main/Project%202/VermaAPythonAssignment1.ipynb), I had to complete some basic Python commands.
 
 ## Project 3
-TBD.
+In this [project](https://github.com/awesomecosmos/CS673-Scalable-Databases/blob/main/Project%203/CS673%20Assignment%203.scala), I completed some tasks using SparkSQL in the Spark big data context. You can also find my results here on [Databricks Community](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/7431188062807507/2622594062738597/3254322822581140/latest.html).
 
 ## Midterm Project
 In this [project](https://github.com/awesomecosmos/CS673-Scalable-Databases/blob/main/Midterm%20Project/cs673_midterm_project.ipynb), my [partner](https://github.com/woodskd24) and I analyzed the [Data Scientist Salaries 2023](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023) dataset, and performed EDA, data cleaning, wrangling, manipulation, etc. in order to answer targeted queries and extract insights from the dataset. We recorded our presentation on this project here: https://youtu.be/z1-39Pkm-2E
