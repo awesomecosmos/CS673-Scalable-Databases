@@ -1,0 +1,35 @@
+DESCRIBE CLUSTER;
+
+DESCRIBE KEYSPACES;
+
+USE cs;
+
+CREATE TABLE ds_salaries (emp_id TEXT, job_title TEXT, salary INT, PRIMARY KEY (emp_id));
+
+DESCRIBE TABLE ds_salaries;
+
+INSERT INTO ds_salaries (emp_id, job_title, salary) VALUES ('0001', 'Principal Data Scientist', 85847);
+
+SELECT * FROM ds_salaries;
+
+INSERT INTO ds_salaries (emp_id, job_title, salary) VALUES ('0002', 'ML Engineer', 30000);
+
+INSERT INTO ds_salaries (emp_id, job_title, salary) VALUES ('0003', 'ML Engineer', 25500);
+
+INSERT INTO ds_salaries (emp_id, job_title, salary) VALUES ('0004', 'Data Scientist', 175000);
+
+INSERT INTO ds_salaries (emp_id, job_title, salary) VALUES ('0005', 'Data Scientist', 120000);
+
+SELECT * FROM ds_salaries;
+
+DELETE salary FROM ds_salaries WHERE emp_id='0005';
+
+SELECT * FROM ds_salaries;
+
+DELETE FROM ds_salaries WHERE emp_id='0005';
+
+SELECT * FROM ds_salaries;
+
+UPDATE ds_salaries SET experience_level = {'SE'} WHERE emp_id = '0001';
+
+SELECT job_title, AVG(salary) AS avg_salary FROM ds_salaries;
